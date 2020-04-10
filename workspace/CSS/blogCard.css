@@ -1,0 +1,32 @@
+#nestedGrid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+}
+
+.blogPost{
+    height: 100%;
+    width: 100%;
+    border: 1px solid aqua;
+    background-color: whitesmoke;
+}
+
+.genre{
+    color: crimson;
+}
+
+@media (min-width:700px) and (max-width: 1100px){
+     #nestedGrid{
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: minmax(100px, auto);
+    } 
+}
+
+@media (min-width: 1101px){
+    #nestedGrid{
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: minmax(100px, auto);
+    } 
+}
+

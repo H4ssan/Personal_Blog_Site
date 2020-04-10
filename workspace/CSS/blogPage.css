@@ -1,0 +1,15 @@
+#blog-post{
+    display: grid;
+    grid-template-columns: 95%;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+#author-details {
+    height: 25%;
+    background-color: gainsboro;
+    order: 1;
+}
+
+#caption{
+    color: lightgray;
+}

@@ -1,4 +1,4 @@
-# Personal_Blog_Site
+# Personal Blog Site
 Project 1 of Udacity Front End Developer Nanodegree Program
 
 My first go at developing a website using HTML5 and CSS.
